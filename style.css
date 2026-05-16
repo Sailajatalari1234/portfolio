@@ -1,0 +1,173 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:#081b29;
+  color:white;
+}
+
+header{
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+  padding:20px 10%;
+  background:#081b29;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo{
+  color:#00abf0;
+  font-size:32px;
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+}
+
+nav ul li{
+  margin-left:30px;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration:none;
+}
+
+.hero{
+  min-height:100vh;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:120px 10%;
+}
+
+.hero-text h3{
+  color:#00abf0;
+  font-size:30px;
+}
+
+.hero-text h1{
+  font-size:65px;
+  margin:10px 0;
+}
+
+.hero-text h2{
+  color:#cbd5e1;
+  margin-bottom:20px;
+}
+
+.hero-text p{
+  color:#94a3b8;
+  line-height:1.8;
+  margin-bottom:30px;
+}
+
+.buttons{
+  display:flex;
+  gap:20px;
+}
+
+.btn,.btn2{
+  padding:12px 25px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.btn{
+  background:#00abf0;
+  color:black;
+}
+
+.btn2{
+  border:2px solid #00abf0;
+  color:#00abf0;
+}
+
+.hero-image img{
+  width:320px;
+  height:320px;
+  border-radius:50%;
+  border:5px solid #00abf0;
+  object-fit:cover;
+  box-shadow:0 0 30px #00abf0;
+}
+
+.section{
+  padding:80px 10%;
+}
+
+.title{
+  text-align:center;
+  color:#00abf0;
+  margin-bottom:40px;
+  font-size:40px;
+}
+
+.card{
+  background:#112e42;
+  padding:30px;
+  border-radius:20px;
+  line-height:1.8;
+}
+
+.skills-container{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+}
+
+.skill{
+  background:#112e42;
+  padding:15px 25px;
+  border-radius:30px;
+}
+
+.project-container{
+  display:flex;
+  justify-content:center;
+}
+
+.project-card{
+  width:350px;
+  background:#112e42;
+  padding:30px;
+  border-radius:20px;
+}
+
+.project-card h3{
+  color:#00abf0;
+  margin-bottom:15px;
+}
+
+.project-card p{
+  color:#cbd5e1;
+  line-height:1.7;
+}
+
+.contact-box{
+  background:#112e42;
+  padding:30px;
+  border-radius:20px;
+  line-height:2.2;
+  text-align:center;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  border-top:1px solid #1e293b;
+  color:#94a3b8;
+}
