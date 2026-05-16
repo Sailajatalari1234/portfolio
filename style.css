@@ -96,12 +96,12 @@ nav ul li a{
 }
 
 .hero-image img{
-  width:320px;
-  height:320px;
-  border-radius:50%;
-  border:5px solid #00abf0;
-  object-fit:cover;
-  box-shadow:0 0 30px #00abf0;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #00aaff;
+    box-shadow: 0 0 30px rgba(0,170,255,0.6);
 }
 
 .section{
